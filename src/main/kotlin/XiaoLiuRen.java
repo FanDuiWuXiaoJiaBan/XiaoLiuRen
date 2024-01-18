@@ -17,7 +17,7 @@ public class XiaoLiuRen {
         System.out.println("农历：" + lunar.getFullLunarName());
         String[] gua = {"大安","留连","速喜","赤口","小吉","空亡"};
         //测试六月初五9点半
-//        AAAA
+//        CC
 //        dayOfLunarMonth = 5;
 //        shiChen= calculateShichen(9);
         int m = (lunarMonth-1+dayOfLunarMonth-1+shiChen)%6;
